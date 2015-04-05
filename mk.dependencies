@@ -1,5 +1,9 @@
 [
   {
+    "repository": "android_vendor_motorola_msm8960_jbbl-common",
+    "target_path": "vendor/motorola/msm8960_jbbl-common"
+  },
+  {
     "repository": "android_device_qcom_common",
     "target_path": "device/qcom/common"
   },
