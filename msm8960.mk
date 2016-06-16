@@ -39,6 +39,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Snap
 
+# Gello
+PRODUCT_PACKAGES += \
+    Gello
+
 # HAL
 PRODUCT_PACKAGES += \
     camera.msm8960 \
@@ -83,10 +87,6 @@ PRODUCT_PACKAGES += \
 # GPS configuration
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/gps.conf:system/etc/gps.conf
-
-# EGL config
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/config/egl.cfg:system/lib/egl/egl.cfg
 
 # Wifi
 PRODUCT_COPY_FILES += \
